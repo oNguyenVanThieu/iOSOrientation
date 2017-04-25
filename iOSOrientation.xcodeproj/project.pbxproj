@@ -12,6 +12,8 @@
 		F8C2556B1EAFA1B100EE180A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8C255691EAFA1B100EE180A /* Main.storyboard */; };
 		F8C2556D1EAFA1B100EE180A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8C2556C1EAFA1B100EE180A /* Assets.xcassets */; };
 		F8C255701EAFA1B100EE180A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8C2556E1EAFA1B100EE180A /* LaunchScreen.storyboard */; };
+		F8C255781EAFA86F00EE180A /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C255771EAFA86F00EE180A /* SecondViewController.swift */; };
+		F8C2557A1EAFB2F900EE180A /* AppUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C255791EAFB2F900EE180A /* AppUtility.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		F8C2556C1EAFA1B100EE180A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F8C2556F1EAFA1B100EE180A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F8C255711EAFA1B100EE180A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8C255771EAFA86F00EE180A /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		F8C255791EAFB2F900EE180A /* AppUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppUtility.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				F8C2556C1EAFA1B100EE180A /* Assets.xcassets */,
 				F8C2556E1EAFA1B100EE180A /* LaunchScreen.storyboard */,
 				F8C255711EAFA1B100EE180A /* Info.plist */,
+				F8C255771EAFA86F00EE180A /* SecondViewController.swift */,
+				F8C255791EAFB2F900EE180A /* AppUtility.swift */,
 			);
 			path = iOSOrientation;
 			sourceTree = "<group>";
@@ -137,6 +143,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8C2557A1EAFB2F900EE180A /* AppUtility.swift in Sources */,
+				F8C255781EAFA86F00EE180A /* SecondViewController.swift in Sources */,
 				F8C255681EAFA1B100EE180A /* ViewController.swift in Sources */,
 				F8C255661EAFA1B100EE180A /* AppDelegate.swift in Sources */,
 			);
@@ -302,6 +310,7 @@
 				F8C255761EAFA1B100EE180A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
