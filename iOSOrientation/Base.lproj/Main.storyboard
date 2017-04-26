@@ -72,10 +72,10 @@
             </objects>
             <point key="canvasLocation" x="1668" y="62.518740629685162"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--Navi View Controller-->
         <scene sceneID="u5z-hg-ZVO">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="cCe-uz-nQ6" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="cCe-uz-nQ6" customClass="NaviViewController" customModule="iOSOrientation" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="ejV-Eh-Pvb">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
